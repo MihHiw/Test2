@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Đăng nhập</title>
 </head>
 
 <body>
-    <form action="" method="">
-        <label for="">tên đăng nhập</label>
-        <input type="text" name="txtUserName">
-        <label for="">mật khẩu</label>
-        <input type="text" name="txtpassword">
-        <button name="btnlogin">Đăng Nhập</button>
+    <form action="login.php" method="post">
+        <label for="txtUserName">Tên đăng nhập</label>
+        <input type="text" name="txtUserName" id="txtUserName" required>
 
+        <label for="txtpassword">Mật khẩu</label>
+        <input type="password" name="txtpassword" id="txtpassword" required>
+
+        <button type="submit" name="btnlogin">Đăng Nhập</button>
     </form>
-
 </body>
 
 </html>
